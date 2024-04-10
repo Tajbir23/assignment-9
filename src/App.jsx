@@ -6,6 +6,7 @@ import 'animate.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import 'aos/dist/aos.css';
 
 function App() {
 

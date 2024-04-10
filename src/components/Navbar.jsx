@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom"
-import useAuthValidation from "./Customhook/useAuthValidation"
 import { useEffect, useState } from "react";
-import { signOut } from "firebase/auth";
+import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "./config/Config";
 import { useNavigate} from 'react-router-dom';
 import {Helmet} from "react-helmet";
@@ -14,20 +13,22 @@ const Navbar = () => {
     photo: "",
     uid: "",
   })
-  const {data} = useAuthValidation();
+
   const navigate = useNavigate()
 
   useEffect(() => {
     
-    if(data){
-      setProfile({ name: data.displayName, photo: data.photoURL, uid: data.uid})
-      setLoading(false)
-    }else{
-      setProfile(null)
-      setLoading(false)
-    }
+    onAuthStateChanged(auth, (user) => {
+      if(user){
+        setProfile({ name: user.displayName, photo: user.photoURL, uid: user.uid})
+        setLoading(false)
+      }else{
+        setProfile(null)
+        setLoading(false)
+      }
+    })
   
-  },[data])
+  },[])
 
   console.log(profile?.photo)
   

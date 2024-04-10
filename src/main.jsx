@@ -8,6 +8,7 @@ import Login from './components/Authentication/Login.jsx'
 import Register from './components/Authentication/Register.jsx'
 import UpdateProfile from './pages/UpdateProfile.jsx'
 import Error from './pages/Error.jsx'
+import DetailsEstate from './pages/DetailsEstate.jsx'
 
 
 
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/details/:id',
-        element: <details />
+        element: <DetailsEstate />
       }
     ]
   }
