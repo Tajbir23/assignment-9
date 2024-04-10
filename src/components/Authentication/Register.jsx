@@ -5,6 +5,7 @@ import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth } from "../config/Config";
 import { useNavigate } from "react-router-dom";
 import { Bounce, ToastContainer, toast } from "react-toastify";
+import {Helmet} from "react-helmet";
 
 const Register = () => {
   const [lowerCase, setLowerCase] = useState("");
@@ -90,6 +91,9 @@ const Register = () => {
   };
   return (
     <>
+    <Helmet>
+      <title>Register</title>
+    </Helmet>
       <div className="hero h-[calc(100vh-70px)] bg-base-200">
         <ToastContainer
           position="top-right"

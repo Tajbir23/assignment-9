@@ -1,0 +1,166 @@
+{
+    "residential_estates": [
+      {
+        "image": "https://images.familyhomeplans.com/plans/44207/44207-b600.jpg",
+        "estate_title": "Modern Single Family Home",
+        "id": "001",
+        "segment_name": "Single-family home",
+        "description": {
+          "features": [
+            "Contemporary design with clean lines and modern finishes.",
+            "Spacious interiors with an open floor plan, ideal for family living.",
+            "Large backyard perfect for outdoor activities and entertaining guests.",
+            "Master suite with walk-in closet, en-suite bathroom, and balcony overlooking the garden.",
+            "Additional bedrooms with attached bathrooms and walk-in closets.",
+            "Gourmet kitchen with quartz countertops, island, and premium appliances.",
+            "Formal dining room with access to the backyard for indoor-outdoor entertaining.",
+            "Cozy family room with fireplace and built-in entertainment center.",
+            "Home office with custom cabinetry, built-in desk, and high-speed internet.",
+            "Attached three-car garage with storage space and electric car charging station.",
+            "Smart home technology for lighting, security, and climate control.",
+            "Landscaped garden with fruit trees, vegetable beds, and outdoor seating areas.",
+            "Located in a desirable neighborhood with top-rated schools and parks."
+          ]
+        },
+        "price": "$600,000",
+        "status": "sale",
+        "area": "3000 sq ft",
+        "location": "Los Angeles, California",
+        "facilities": ["backyard", "garage", "home office", "playground"],
+        "view_property_button": "View Property"
+      },
+      {
+        "image": "https://images.trvl-media.com/lodging/35000000/34330000/34322200/34322159/6f055417.jpg?impolicy=resizecrop&rw=432&ra=fit",
+        "estate_title": "Charming Townhouse in Historic District",
+        "id": "002",
+        "segment_name": "Townhouse",
+        "description": {
+          "features": [
+            "Historic townhouse meticulously restored with attention to detail.",
+            "Original architectural features including exposed brick walls and hardwood floors.",
+            "Light-filled living room with bay windows and decorative fireplace.",
+            "Renovated kitchen with custom cabinetry, subway tile backsplash, and farmhouse sink.",
+            "Formal dining room with original built-in cabinets and vintage chandelier.",
+            "Master suite with sitting area, walk-in closet, and spa-like bathroom with clawfoot tub.",
+            "Cozy library or home office with built-in bookshelves and garden views.",
+            "Private patio garden with brick paving, pergola, and mature landscaping.",
+            "Detached garage with storage space and potential for studio or workshop.",
+            "Energy-efficient upgrades including insulation, windows, and HVAC system.",
+            "Located in a historic district close to shops, restaurants, and cultural attractions."
+          ]
+        },
+        "price": "$450,000",
+        "status": "sale",
+        "area": "2000 sq ft",
+        "location": "Boston, Massachusetts",
+        "facilities": ["patio", "garage", "fireplace", "garden"],
+        "view_property_button": "View Property"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwORjqG3uGeZGf2eqDvP-WgoU2a01-8YK2M3SUel5ctQ&s",
+        "estate_title": "Luxury High-Rise Apartment",
+        "id": "003",
+        "segment_name": "Apartment",
+        "description": {
+          "features": [
+            "Luxurious high-rise living with panoramic views of the city skyline and bay.",
+            "Expansive floor plan with high ceilings, floor-to-ceiling windows, and hardwood floors.",
+            "Designer kitchen with European cabinetry, quartz countertops, and top-of-the-line appliances.",
+            "Spacious living room with custom lighting, built-in media center, and access to private terrace.",
+            "Master suite with walk-in closet, spa-like bathroom with soaking tub, and private balcony.",
+            "Guest bedroom or office with built-in desk, storage, and en-suite bathroom.",
+            "Exclusive building amenities including rooftop pool, fitness center, and concierge services.",
+            "Secure building with controlled access, 24-hour security, and valet parking.",
+            "Prime location in the heart of downtown near dining, shopping, and entertainment venues.",
+            "LEED-certified green building with energy-efficient systems and sustainable design features."
+          ]
+        },
+        "price": "$1,200,000",
+        "status": "sale",
+        "area": "2000 sq ft",
+        "location": "San Francisco, California",
+        "facilities": ["rooftop pool", "fitness center", "concierge service", "private balcony"],
+        "view_property_button": "View Property"
+      },
+      {
+        "image": "https://img.freepik.com/premium-photo/modern-student-housing-complex-exterior-with-vibrant-colors_706399-17279.jpg",
+        "estate_title": "Modern Student Housing Complex",
+        "id": "004",
+        "segment_name": "Student Housing",
+        "description": {
+          "features": [
+            "Purpose-built student housing designed for comfort, convenience, and community.",
+            "Fully furnished apartments with modern decor, open floor plans, and ample storage.",
+            "Private bedrooms with study desk, chair, lamp, and wardrobe.",
+            "Shared living spaces including kitchen, dining area, and lounge with TV.",
+            "Kitchen equipped with stainless steel appliances, granite countertops, and breakfast bar.",
+            "High-speed internet, cable TV, and utilities included in rent.",
+            "On-site fitness center with cardio machines, weight training equipment, and yoga studio.",
+            "Study lounges with computers, printers, and quiet areas for group or solo work.",
+            "Game room with pool table, foosball, ping pong, and gaming consoles.",
+            "Outdoor courtyard with BBQ grills, seating areas, and fire pit.",
+            "Convenient location near campus, dining options, and public transportation."
+          ]
+        },
+        "price": "$800/month per student",
+        "status": "rent",
+        "area": "Shared accommodations",
+        "location": "Chicago, Illinois",
+        "facilities": ["study lounges", "fitness center", "game room", "laundry facilities"],
+        "view_property_button": "View Property"
+      },
+      {
+        "image": "https://theglen.org/wp-content/uploads/2023/05/Retirement-Community-Living-vs-Senior-Housing.jpg",
+        "estate_title": "Retirement Community for Active Seniors",
+        "id": "005",
+        "segment_name": "Senior Living Community",
+        "description": {
+          "features": [
+            "Full-service retirement community designed for active seniors.",
+            "Choice of spacious apartments with multiple floor plans and customizable features.",
+            "Restaurant-style dining with daily chef-prepared meals and flexible dining options.",
+            "Wellness center offering fitness classes, exercise equipment, and personal training.",
+            "Scheduled transportation for shopping trips, appointments, and outings.",
+            "Social and recreational activities including clubs, classes, and cultural events.",
+            "Outdoor amenities such as walking paths, gardens, and a putting green.",
+            "Library, game room, and movie theater for leisure and entertainment.",
+            "Pet-friendly community with pet care services and walking areas.",
+            "On-site staff including nurses, caregivers, and maintenance personnel."
+          ]
+        },
+        "price": "$3,000/month",
+        "status": "rent",
+        "area": "Private apartments",
+        "location": "Miami, Florida",
+        "facilities": ["restaurant", "swimming pool", "fitness center", "library"],
+        "view_property_button": "View Property"
+      },
+      {
+        "image": "https://seasideor.b-cdn.net/wp-content/uploads/2021/04/202105_SeasideWeb_Saltworks.jpg",
+        "estate_title": "Seaside Vacation Rental Cottage",
+        "id": "006",
+        "segment_name": "Vacation Rental",
+        "description": {
+          "features": [
+            "Quaint seaside cottage located steps away from the beach.",
+            "Bright and airy interiors with coastal decor and beach-inspired accents.",
+            "Open-concept living area with comfortable seating and flat-screen TV.",
+            "Fully equipped kitchen with modern appliances and dining area for six guests.",
+            "Two cozy bedrooms with plush bedding and views of the ocean or garden.",
+            "Renovated bathroom with walk-in shower and luxury bath amenities.",
+            "Spacious deck with outdoor seating, BBQ grill, and panoramic ocean views.",
+            "Private garden with hammock, lounge chairs, and tropical landscaping.",
+            "Outdoor shower for rinsing off after a day at the beach.",
+            "Complimentary WiFi, beach towels, and beach chairs provided."
+          ]
+        },
+        "price": "$250/night",
+        "status": "rent",
+        "area": "1000 sq ft",
+        "location": "Hawaii",
+        "facilities": ["beach access", "patio", "BBQ grill", "WiFi"],
+        "view_property_button": "View Property"
+      }
+    ]
+  }
+  

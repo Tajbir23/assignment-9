@@ -7,11 +7,15 @@ import Body from './pages/Body.jsx'
 import Login from './components/Authentication/Login.jsx'
 import Register from './components/Authentication/Register.jsx'
 import UpdateProfile from './pages/UpdateProfile.jsx'
+import Error from './pages/Error.jsx'
+
+
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <Error />,
     children: [
       {
         path: '/',
@@ -28,7 +32,8 @@ const router = createBrowserRouter([
       {
         path: '/profile/:id',
         element: <UpdateProfile />
-      }
+      },
+      
     ]
   }
 ])
