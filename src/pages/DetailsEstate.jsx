@@ -59,7 +59,7 @@ const DetailsEstate = () => {
   <meta name="description" content={data?.description?.features} />
 </Helmet>
 
-  {!loading ? <div className="hero lg:h-[calc(100vh-70px)] h-max" style={{backgroundImage: `url(${data.image})`}}>
+  {!loading ? <div className="hero w-full lg:h-[calc(100vh-70px)] h-max" style={{backgroundImage: `url(${data.image})`}}>
   <div className="hero-overlay bg-opacity-80"></div>
   <div className="flex gap-10 p-10 flex-col lg:flex-row text-neutral-content">
     <img className='lg:max-w-md' src={data.image} alt='image not found' />
