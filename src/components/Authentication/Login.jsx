@@ -103,7 +103,7 @@ const Login = () => {
         transition={Bounce}
       />
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+        <div className="card shrink-0 sm:w-[400px] w-full max-w-sm shadow-2xl bg-base-100">
           <form onSubmit={handleSubmit} className="card-body">
             <div className="form-control">
               <label className="label">
@@ -128,7 +128,7 @@ const Login = () => {
                     setData({ ...data, password: e.target.value })
                   }
                   placeholder="password"
-                  className="input input-bordered"
+                  className="input input-bordered w-full"
                   required
                 />
                 <div>
@@ -150,7 +150,7 @@ const Login = () => {
               <button type="submit" className="btn btn-primary">
                 Login
               </button>
-              <p className="mt-2 text-sm text-gray-600">
+              <p className="mt-2 text-sm text-gray-600 text-center">
                 Don&apos;t have an account?{" "}
                 <Link to="/signup" className="text-blue-500">
                   Sign up

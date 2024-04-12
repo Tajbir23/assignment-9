@@ -109,7 +109,7 @@ const Register = () => {
           transition={Bounce}
         />
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+          <div className="card shrink-0 sm:w-[400px] w-full max-w-sm shadow-2xl bg-base-100">
             <form onSubmit={handleSignUp} className="card-body">
               <div className="form-control">
                 <label className="label">
@@ -156,7 +156,7 @@ const Register = () => {
                     type={showPass ? "text" : "password"}
                     onChange={(e) => validatePassword(e.target.value)}
                     placeholder="password"
-                    className="input input-bordered"
+                    className="input input-bordered w-full"
                     required
                   />
                   <div>
@@ -197,7 +197,7 @@ const Register = () => {
                 >
                   Signup
                 </button>
-                <p className="mt-2 text-sm text-gray-600">
+                <p className="mt-2 text-sm text-gray-600 text-center">
                   Already have an account?{" "}
                   <Link to="/login" className="text-blue-500">
                     Login

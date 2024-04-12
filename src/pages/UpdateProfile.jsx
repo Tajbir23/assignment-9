@@ -99,7 +99,7 @@ const UpdateProfile = () => {
         {loading ? <h1>Loading</h1> : <>
         <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+    <div className="card shrink-0 sm:w-[400px] w-full max-w-sm shadow-2xl bg-base-100">
       <form className="card-body">
         <div className="form-control">
           <label className="label">
