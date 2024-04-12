@@ -27,8 +27,8 @@ const Navbar = () => {
         setLoading(false)
       }
     })
-  
-  },[])
+    
+  },[navigate])
 
   console.log(profile?.photo)
   
@@ -37,7 +37,7 @@ const Navbar = () => {
     <Helmet>
       <title>Home</title>
     </Helmet>
-    <div className="navbar bg-base-100 z-[1]">
+    <div className="navbar bg-base-100 z-[1] overflow-hidden">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,7 +45,7 @@ const Navbar = () => {
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[999] p-2 shadow bg-base-100 rounded-box w-52">
       <li><NavLink to='/'>Home</NavLink></li>
-      <li><NavLink to={profile?.uid ? `/profile/${profile?.uid}` : '/login'}>Update profile</NavLink></li>
+      {profile?.uid && <li><NavLink to={`profile/${profile?.uid}`}>Update profile</NavLink></li>}
       </ul>
     </div>
     <a className="btn btn-ghost text-xl">HomeHavenHub</a>
@@ -53,7 +53,7 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       <li><NavLink to='/'>Home</NavLink></li>
-      <li><NavLink to={profile?.uid ? `/profile/${profile?.uid}` : '/login'}>Update profile</NavLink></li>
+      {profile?.uid && <li><NavLink to={`profile/${profile?.uid}`}>Update profile</NavLink></li>}
     </ul>
   </div>
   <div className="navbar-end">

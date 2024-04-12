@@ -61,12 +61,12 @@ const DetailsEstate = () => {
 
   {!loading ? <div className="hero lg:h-[calc(100vh-70px)] h-max" style={{backgroundImage: `url(${data.image})`}}>
   <div className="hero-overlay bg-opacity-80"></div>
-  <div className="flex gap-10 p-10 flex-col md:flex-row text-neutral-content">
-    <img className='md:max-w-md' src={data.image} />
+  <div className="flex gap-10 p-10 flex-col lg:flex-row text-neutral-content">
+    <img className='lg:max-w-md' src={data.image} alt='image not found' />
     <div className="w-auto">
-      <h1 className="mb-5 text-5xl font-bold">{data?.estate_title}</h1>
-      <p className="mb-5 text-3xl font-bold">{data?.segment_name}</p>
-      <div className='flex gap-20 text-lg font-bold text-red-600 mb-5'>
+      <h1 className="mb-5 text-xl lg:text-5xl font-bold">{data?.estate_title}</h1>
+      <p className="mb-5 text-lg lg:text-3xl font-bold">{data?.segment_name}</p>
+      <div className='flex sm:gap-20 gap-10 text-lg font-bold text-red-600 mb-5'>
         <h1>{data?.location}</h1>
         <h1>{data?.area}</h1>
       </div>

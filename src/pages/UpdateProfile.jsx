@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import {useParams, useNavigate} from 'react-router-dom';
 import useAuthValidation from '../components/Customhook/useAuthValidation';
 import {Helmet} from "react-helmet";
-import { updateProfile } from 'firebase/auth';
+import { onAuthStateChanged, updateProfile } from 'firebase/auth';
 import { auth } from '../components/config/Config';
 import { Bounce, ToastContainer, toast } from "react-toastify";
 
@@ -20,21 +20,32 @@ const UpdateProfile = () => {
     const navigate = useNavigate()
 
     useEffect(() => {
-        if (data) {
-            if(data.uid === id){
-                setLoading(false)
-            } else {
-                navigate('/login')
-            }
-        }
+        // if (data) {
+        //     if(data.uid === id){
+        //         setLoading(false)
+        //     } else {
+        //         navigate('/login')
+        //     }
+        // }
+        onAuthStateChanged(auth, (user) => {
+          if(user){
+            setUser({name: user.displayName, photo: user.photoURL, email: user.email})
+            setLoading(false)
+            
+          }else{
+            setLoading(false)
+            navigate('/login')
+            
+          }
+        })
     },[id, data])
 
-    useEffect(() => {
-        if(data){
-            console.log(data)
-            setUser({ name: data.displayName, photo: data.photoURL, email: data.email})
-        }
-    },[data])
+    // useEffect(() => {
+    //     if(data){
+    //         console.log(data)
+    //         setUser({ name: data.displayName, photo: data.photoURL, email: data.email})
+    //     }
+    // },[data])
 
 
     const successToast = () => {
@@ -95,7 +106,7 @@ const UpdateProfile = () => {
         theme="light"
         transition={Bounce}
       />
-    <div className='w-full h-[calc(100vh-70px)] flex items-center justify-center '>
+    <div className='w-full h-[calc(100vh-70px)] flex items-center justify-center'>
         {loading ? <h1>Loading</h1> : <>
         <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
