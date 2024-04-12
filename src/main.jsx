@@ -9,6 +9,7 @@ import Register from './components/Authentication/Register.jsx'
 import UpdateProfile from './pages/UpdateProfile.jsx'
 import Error from './pages/Error.jsx'
 import DetailsEstate from './pages/DetailsEstate.jsx'
+import Contact from './pages/Contact.jsx'
 
 
 
@@ -37,9 +38,14 @@ const router = createBrowserRouter([
       {
         path: '/details/:id',
         element: <DetailsEstate />
+      },
+      {
+        path: '/contact',
+        element: <Contact />
       }
     ]
-  }
+  },
+  
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

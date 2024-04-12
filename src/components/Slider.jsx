@@ -17,9 +17,10 @@ const Slider = () => {
      .catch((err) => console.log(err))
   },[])
 
-  // console.log(data)
 
   return (
+    <>
+
     <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -33,11 +34,13 @@ const Slider = () => {
         
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="sm:h-[calc(100vh-185px)] h-40 mt-10"
+        className="sm:h-[calc(100vh-85px)] h-40 mt-10"
       >
-        {data.map((items) => <SwiperSlide key={items.id}><img className='h-full w-full' src={items.image} alt='image not found'/></SwiperSlide>)}
+        {data.map((items) => <SwiperSlide key={items.id}><img className='h-full w-full ' src={items.image} alt='image not found'/></SwiperSlide>)}
         
       </Swiper>
+
+      </>
   )
 }
 

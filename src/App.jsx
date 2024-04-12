@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div className="animate__animated animate__bounce z-50">
+      <div >
       <Navbar />
       </div>
       <Outlet />

@@ -20,6 +20,7 @@ const Register = () => {
     password: "",
   });
 
+  console.log(data)
   const validatePassword = (password) => {
     const lowerCase = /[a-z]/g;
     const upperCase = /[A-Z]/g;
@@ -49,7 +50,7 @@ const Register = () => {
   const handleSignUp = (e) => {
     e.preventDefault();
 
-    if (!upperCase && !lowerCase && !Length) {
+    if (!upperCase && !lowerCase && !Length ) {
       createUserWithEmailAndPassword(auth, data.email, data.password)
         .then(() => {
           updateProfile(auth.currentUser, {

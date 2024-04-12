@@ -9,6 +9,7 @@ import { Bounce, ToastContainer, toast } from "react-toastify";
 const UpdateProfile = () => {
     const {id} = useParams()
     const [loading, setLoading] = useState(true)
+    
     const [user, setUser] = useState({
         name: "",
         photo: "",
@@ -20,13 +21,7 @@ const UpdateProfile = () => {
     const navigate = useNavigate()
 
     useEffect(() => {
-        // if (data) {
-        //     if(data.uid === id){
-        //         setLoading(false)
-        //     } else {
-        //         navigate('/login')
-        //     }
-        // }
+
         onAuthStateChanged(auth, (user) => {
           if(user){
             setUser({name: user.displayName, photo: user.photoURL, email: user.email})
@@ -39,13 +34,6 @@ const UpdateProfile = () => {
           }
         })
     },[id, data])
-
-    // useEffect(() => {
-    //     if(data){
-    //         console.log(data)
-    //         setUser({ name: data.displayName, photo: data.photoURL, email: data.email})
-    //     }
-    // },[data])
 
 
     const successToast = () => {
@@ -122,7 +110,7 @@ const UpdateProfile = () => {
           <label className="label">
             <span className="label-text">Email</span>
           </label>
-          <input type="email" value={user?.email ? user?.email : ''} onChange={(e) => setUser({...user, email: e.target.value})} placeholder="Email" className="input input-bordered" />
+          <input type="email" disabled value={user?.email ? user?.email : ''} onChange={(e) => setUser({...user, email: e.target.value})} placeholder="Email" className="input input-bordered" />
         </div>
         <div className="form-control">
           <label className="label">
