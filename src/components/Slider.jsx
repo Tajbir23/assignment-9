@@ -34,7 +34,7 @@ const Slider = () => {
         
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="sm:h-[calc(100vh-85px)] h-40 mt-10"
+        className="md:h-96 h-40 mt-10"
       >
         {data.map((items) => <SwiperSlide key={items.id}>
           <div className='relative h-full w-full'>

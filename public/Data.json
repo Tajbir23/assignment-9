@@ -1,124 +1,180 @@
 {
-    "residential_estates": [
-      {
-        "image": "https://images.familyhomeplans.com/plans/44207/44207-b600.jpg",
-        "estate_title": "Modern Single Family Home",
-        "id": "001",
-        "segment_name": "Single-family home",
-        "description": {
-          "features": [
-            "Contemporary design with clean lines and modern finishes.",
-            "Spacious interiors with an open floor plan, ideal for family living.",
-            "Large backyard perfect for outdoor activities and entertaining guests."
-          ]
-        },
-        "price": "$600,000",
-        "status": "sale",
-        "area": "3000 sq ft",
-        "location": "Los Angeles, California",
-        "facilities": ["backyard", "garage", "home office", "playground"],
-        "view_property_button": "View Property"
+  "residential_estates": [
+    {
+      "image": "https://images.familyhomeplans.com/plans/44207/44207-b600.jpg",
+      "estate_title": "Modern Single Family Home",
+      "id": "001",
+      "segment_name": "Single-family home",
+      "description": {
+        "features": [
+          "Contemporary design with clean lines and modern finishes.",
+          "Spacious interiors with an open floor plan, ideal for family living.",
+          "Large backyard perfect for outdoor activities and entertaining guests."
+        ]
       },
-      {
-        "image": "https://images.trvl-media.com/lodging/35000000/34330000/34322200/34322159/6f055417.jpg?impolicy=resizecrop&rw=432&ra=fit",
-        "estate_title": "Charming Townhouse in Historic District",
-        "id": "002",
-        "segment_name": "Townhouse",
-        "description": {
-          "features": [
-            "Historic townhouse meticulously restored with attention to detail.",
-            "Original architectural features including exposed brick walls and hardwood floors.",
-            "Light-filled living room with bay windows and decorative fireplace."
-            
-          ]
-        },
-        "price": "$450,000",
-        "status": "sale",
-        "area": "2000 sq ft",
-        "location": "Boston, Massachusetts",
-        "facilities": ["patio", "garage", "fireplace", "garden"],
-        "view_property_button": "View Property"
+      "price": "$600,000",
+      "status": "sale",
+      "area": "3000 sq ft",
+      "location": "Los Angeles, California",
+      "facilities": ["backyard", "garage", "home office", "playground"],
+      "view_property_button": "View Property"
+    },
+    {
+      "image": "https://images.trvl-media.com/lodging/35000000/34330000/34322200/34322159/6f055417.jpg?impolicy=resizecrop&rw=432&ra=fit",
+      "estate_title": "Charming Townhouse in Historic District",
+      "id": "002",
+      "segment_name": "Townhouse",
+      "description": {
+        "features": [
+          "Historic townhouse meticulously restored with attention to detail.",
+          "Original architectural features including exposed brick walls and hardwood floors.",
+          "Light-filled living room with bay windows and decorative fireplace."
+          
+        ]
       },
-      {
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwORjqG3uGeZGf2eqDvP-WgoU2a01-8YK2M3SUel5ctQ&s",
-        "estate_title": "Luxury High-Rise Apartment",
-        "id": "003",
-        "segment_name": "Apartment",
-        "description": {
-          "features": [
-            "Luxurious high-rise living with panoramic views of the city skyline and bay.",
-            "Expansive floor plan with high ceilings, floor-to-ceiling windows, and hardwood floors.",
-            "Designer kitchen with European cabinetry, quartz countertops, and top-of-the-line appliances."
-            
-          ]
-        },
-        "price": "$1,200,000",
-        "status": "sale",
-        "area": "2000 sq ft",
-        "location": "San Francisco, California",
-        "facilities": ["rooftop pool", "fitness center", "concierge service", "private balcony"],
-        "view_property_button": "View Property"
+      "price": "$450,000",
+      "status": "sale",
+      "area": "2000 sq ft",
+      "location": "Boston, Massachusetts",
+      "facilities": ["patio", "garage", "fireplace", "garden"],
+      "view_property_button": "View Property"
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwORjqG3uGeZGf2eqDvP-WgoU2a01-8YK2M3SUel5ctQ&s",
+      "estate_title": "Luxury High-Rise Apartment",
+      "id": "003",
+      "segment_name": "Apartment",
+      "description": {
+        "features": [
+          "Luxurious high-rise living with panoramic views of the city skyline and bay.",
+          "Expansive floor plan with high ceilings, floor-to-ceiling windows, and hardwood floors.",
+          "Designer kitchen with European cabinetry, quartz countertops, and top-of-the-line appliances."
+          
+        ]
       },
-      {
-        "image": "https://img.freepik.com/premium-photo/modern-student-housing-complex-exterior-with-vibrant-colors_706399-17279.jpg",
-        "estate_title": "Modern Student Housing Complex",
-        "id": "004",
-        "segment_name": "Student Housing",
-        "description": {
-          "features": [
-            "Purpose-built student housing designed for comfort, convenience, and community.",
-            "Fully furnished apartments with modern decor, open floor plans, and ample storage.",
-            "Private bedrooms with study desk, chair, lamp, and wardrobe."
-            
-          ]
-        },
-        "price": "$800/month per student",
-        "status": "rent",
-        "area": "Shared accommodations",
-        "location": "Chicago, Illinois",
-        "facilities": ["study lounges", "fitness center", "game room", "laundry facilities"],
-        "view_property_button": "View Property"
+      "price": "$1,200,000",
+      "status": "sale",
+      "area": "2000 sq ft",
+      "location": "San Francisco, California",
+      "facilities": ["rooftop pool", "fitness center", "concierge service", "private balcony"],
+      "view_property_button": "View Property"
+    },
+    {
+      "image": "https://img.freepik.com/premium-photo/modern-student-housing-complex-exterior-with-vibrant-colors_706399-17279.jpg",
+      "estate_title": "Modern Student Housing Complex",
+      "id": "004",
+      "segment_name": "Student Housing",
+      "description": {
+        "features": [
+          "Purpose-built student housing designed for comfort, convenience, and community.",
+          "Fully furnished apartments with modern decor, open floor plans, and ample storage.",
+          "Private bedrooms with study desk, chair, lamp, and wardrobe."
+          
+        ]
       },
-      {
-        "image": "https://theglen.org/wp-content/uploads/2023/05/Retirement-Community-Living-vs-Senior-Housing.jpg",
-        "estate_title": "Retirement Community for Active Seniors",
-        "id": "005",
-        "segment_name": "Senior Living Community",
-        "description": {
-          "features": [
-            "Full-service retirement community designed for active seniors.",
-            "Choice of spacious apartments with multiple floor plans and customizable features.",
-            "Restaurant-style dining with daily chef-prepared meals and flexible dining options."
-            
-          ]
-        },
-        "price": "$3,000/month",
-        "status": "rent",
-        "area": "Private apartments",
-        "location": "Miami, Florida",
-        "facilities": ["restaurant", "swimming pool", "fitness center", "library"],
-        "view_property_button": "View Property"
+      "price": "$800/month per student",
+      "status": "rent",
+      "area": "Shared accommodations",
+      "location": "Chicago, Illinois",
+      "facilities": ["study lounges", "fitness center", "game room", "laundry facilities"],
+      "view_property_button": "View Property"
+    },
+    {
+      "image": "https://theglen.org/wp-content/uploads/2023/05/Retirement-Community-Living-vs-Senior-Housing.jpg",
+      "estate_title": "Retirement Community for Active Seniors",
+      "id": "005",
+      "segment_name": "Senior Living Community",
+      "description": {
+        "features": [
+          "Full-service retirement community designed for active seniors.",
+          "Choice of spacious apartments with multiple floor plans and customizable features.",
+          "Restaurant-style dining with daily chef-prepared meals and flexible dining options."
+          
+        ]
       },
-      {
-        "image": "https://seasideor.b-cdn.net/wp-content/uploads/2021/04/202105_SeasideWeb_Saltworks.jpg",
-        "estate_title": "Seaside Vacation Rental Cottage",
-        "id": "006",
-        "segment_name": "Vacation Rental",
-        "description": {
-          "features": [
-            "Quaint seaside cottage located steps away from the beach.",
-            "Bright and airy interiors with coastal decor and beach-inspired accents.",
-            "Open-concept living area with comfortable seating and flat-screen TV."
-           
-          ]
-        },
-        "price": "$250/night",
-        "status": "rent",
-        "area": "1000 sq ft",
-        "location": "Hawaii",
-        "facilities": ["beach access", "patio", "BBQ grill", "WiFi"],
-        "view_property_button": "View Property"
-      }
-    ]
-  }
-  
+      "price": "$3,000/month",
+      "status": "rent",
+      "area": "Private apartments",
+      "location": "Miami, Florida",
+      "facilities": ["restaurant", "swimming pool", "fitness center", "library"],
+      "view_property_button": "View Property"
+    },
+    {
+      "image": "https://seasideor.b-cdn.net/wp-content/uploads/2021/04/202105_SeasideWeb_Saltworks.jpg",
+      "estate_title": "Seaside Vacation Rental Cottage",
+      "id": "006",
+      "segment_name": "Vacation Rental",
+      "description": {
+        "features": [
+          "Quaint seaside cottage located steps away from the beach.",
+          "Bright and airy interiors with coastal decor and beach-inspired accents.",
+          "Open-concept living area with comfortable seating and flat-screen TV."
+         
+        ]
+      },
+      "price": "$250/night",
+      "status": "rent",
+      "area": "1000 sq ft",
+      "location": "Hawaii",
+      "facilities": ["beach access", "patio", "BBQ grill", "WiFi"],
+      "view_property_button": "View Property"
+    },
+    {
+      "image": "https://cdn.onekindesign.com/wp-content/uploads/2018/01/Rustic-Mountain-Retreat-Kelly-Stone-Architects-01-1-Kindesign.jpg",
+      "estate_title": "Rustic Mountain Retreat",
+      "id": "007",
+      "segment_name": "Mountain Cabin",
+      "description": {
+        "features": [
+          "Cozy mountain cabin nestled in the wilderness with stunning panoramic views.",
+          "Rustic charm with exposed wooden beams, stone fireplace, and log exterior.",
+          "Wrap-around deck for enjoying the natural surroundings and wildlife."
+        ]
+      },
+      "price": "$350,000",
+      "status": "sale",
+      "area": "1500 sq ft",
+      "location": "Aspen, Colorado",
+      "facilities": ["fireplace", "deck", "mountain views", "hiking trails"],
+      "view_property_button": "View Property"
+    },
+    {
+      "image": "https://www.hosthub.com/wp-content/uploads/2021/03/home-house-building-exterior-interior-design-showing-tropical-pool-villa-with-green-garden-bedroom-1.png",
+      "estate_title": "Luxury Short-Term Rental Apartment",
+      "id": "008",
+      "segment_name": "Short-Term Rental",
+      "description": {
+        "features": [
+          "Elegant and contemporary apartment available for short-term stays.",
+          "High-end furnishings, modern amenities, and stylish decor.",
+          "Located in the heart of the city with easy access to attractions and dining."
+        ]
+      },
+      "price": "$300/night",
+      "status": "rent",
+      "area": "1200 sq ft",
+      "location": "New York City, New York",
+      "facilities": ["concierge service", "gym", "WiFi", "city views"],
+      "view_property_button": "View Property"
+    },
+    {
+      "image": "https://www.thelittlevoyager.com/wp-content/uploads/2019/10/austrian-mountain-poolside-little-voyager.jpg",
+      "estate_title": "Family Resort in the Mountains",
+      "id": "009",
+      "segment_name": "Resort",
+      "description": {
+        "features": [
+          "All-inclusive family resort nestled in the scenic mountains.",
+          "Comfortable accommodations with spacious rooms and modern amenities.",
+          "On-site activities for all ages including skiing, hiking, and spa facilities."
+        ]
+      },
+      "price": "Varies by package",
+      "status": "rent",
+      "area": "Varies by accommodation type",
+      "location": "Whistler, British Columbia, Canada",
+      "facilities": ["ski-in/ski-out", "pool", "restaurant", "spa"],
+      "view_property_button": "View Property"
+    }
+  ]
+}

@@ -12,6 +12,7 @@ const Cards = ({item}) => {
     <>
       <div data-aos="fade-right" className="h-52 md:w-80 lg:w-96 w-full group box-border relative cursor-pointer">
         <img
+          alt="image not found"
           className="h-full w-full object-cover"
           src={item.image}
         />
