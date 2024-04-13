@@ -10,6 +10,7 @@ import UpdateProfile from './pages/UpdateProfile.jsx'
 import Error from './pages/Error.jsx'
 import DetailsEstate from './pages/DetailsEstate.jsx'
 import Contact from './pages/Contact.jsx'
+import About from './pages/About.jsx'
 
 
 
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />
+      },
+      {
+        path: '/about',
+        element: <About />
       }
     ]
   },

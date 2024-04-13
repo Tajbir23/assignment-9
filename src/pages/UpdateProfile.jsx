@@ -94,7 +94,7 @@ const UpdateProfile = () => {
         theme="light"
         transition={Bounce}
       />
-    <div className='w-full h-[calc(100vh-70px)] flex items-center justify-center'>
+    <div className='w-full flex items-center justify-center'>
         {loading ? <h1>Loading</h1> : <>
         <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse">

@@ -36,7 +36,12 @@ const Slider = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="sm:h-[calc(100vh-85px)] h-40 mt-10"
       >
-        {data.map((items) => <SwiperSlide key={items.id}><img className='h-full w-full ' src={items.image} alt='image not found'/></SwiperSlide>)}
+        {data.map((items) => <SwiperSlide key={items.id}>
+          <div className='relative h-full w-full'>
+            <img className='h-full w-full ' src={items.image} alt='image not found'/>
+            <h1 className='absolute sm:top-5 sm:left-5 left-2 top-2 inset-0 font-bold text-white lg:text-4xl md:text-3xl sm:text-2xl text-xs'>{items.estate_title}</h1>
+          </div>
+        </SwiperSlide>)}
         
       </Swiper>
 
