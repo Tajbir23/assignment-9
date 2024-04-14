@@ -61,7 +61,7 @@ const DetailsEstate = () => {
 
   {!loading ? <div className="hero w-full lg:h-[calc(100vh-70px)] h-max" style={{backgroundImage: `url(${data.image})`}}>
   <div className="hero-overlay bg-opacity-80"></div>
-  <div className="flex gap-10 p-10 flex-col lg:flex-row text-neutral-content">
+  <div className="flex gap-10 p-10 flex-col mt-16 lg:flex-row text-neutral-content">
     <img className='lg:max-w-md' src={data.image} alt='image not found' />
     <div className="w-auto">
       <h1 className="mb-5 text-xl lg:text-5xl font-bold">{data?.estate_title}</h1>
