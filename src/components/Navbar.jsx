@@ -66,11 +66,18 @@ const Navbar = () => {
                 <NavLink to="/">Home</NavLink>
               </li>
               {profile?.uid && (
+                <>
                 <li>
-                  <NavLink to={`profile/${profile?.uid}`}>
+                  <NavLink to={`updateProfile/${profile?.uid}`}>
                     Update profile
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink to={`profile/${profile?.uid}`}>
+                    profile
+                  </NavLink>
+                </li>
+                </>
               )}
               <li >
                 <NavLink to="/contact">Contact me </NavLink>
@@ -88,9 +95,14 @@ const Navbar = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             {profile?.uid && (
+              <>
               <li>
-                <NavLink to={`profile/${profile?.uid}`}>Update profile</NavLink>
+                <NavLink to={`updateProfile/${profile?.uid}`}>Update profile</NavLink>
               </li>
+              <li>
+                <NavLink to={`profile/${profile?.uid}`}>Profile</NavLink>
+              </li>
+              </>
             )}
             <li>
                 <NavLink to="/contact">Contact me</NavLink>

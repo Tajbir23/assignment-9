@@ -16,7 +16,6 @@ const UpdateProfile = () => {
         email: ""
     })
     
-    const {data} = useAuthValidation();
 
     const navigate = useNavigate()
 
@@ -33,11 +32,11 @@ const UpdateProfile = () => {
             
           }
         })
-    },[id, data])
+    },[id])
 
 
     const successToast = () => {
-        return toast.success("Logged in successful", {
+        return toast.success("update profile successful", {
           position: "top-right",
           autoClose: 2000,
           hideProgressBar: false,

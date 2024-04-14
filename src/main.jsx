@@ -11,6 +11,7 @@ import Error from './pages/Error.jsx'
 import DetailsEstate from './pages/DetailsEstate.jsx'
 import Contact from './pages/Contact.jsx'
 import About from './pages/About.jsx'
+import Profile from './pages/Profile.jsx'
 
 
 
@@ -33,7 +34,7 @@ const router = createBrowserRouter([
         element: <Register />
       },
       {
-        path: '/profile/:id',
+        path: '/updateProfile/:id',
         element: <UpdateProfile />
       },
       {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <About />
+      },
+      {
+        path: '/profile/:id',
+        element: <Profile />
       }
     ]
   },
