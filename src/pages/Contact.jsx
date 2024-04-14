@@ -7,9 +7,9 @@ const Contact = () => {
         <meta charSet="utf-8" />
         <title>Contact</title>
     </Helmet>
-<div className="flex items-center lg:h-[calc(100vh-70px)] justify-center p-12">
+<div className="flex items-center md:h-[calc(100vh-70px)] justify-center p-12">
 
-  <div className="mx-auto w-full max-w-[550px]">
+  <div className="mx-auto mt-16 w-full max-w-[550px]">
     <form>
       <div className="mb-5">
         <label

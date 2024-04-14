@@ -35,24 +35,11 @@ const DetailsEstate = () => {
       })
       .catch((err) => console.log(err))
       
-  },[])
+  },[id])
 
   console.log(data)
   return (
     <>
-    {/* <div className={`hero min-h-screen`} >
-  <div className="flex m-10 gap-10 flex-col lg:flex-row">
-    <img src={data.image} className="sm:max-w-sm rounded-lg shadow-2xl h-max" />
-    <div>
-      <h1 className='font-bold text-4xl'>{data.estate_title}</h1>
-      <h1 className='font-semibold text-3xl'>{data.segment_name}</h1>
-      <ul>
-        <h1 className='underline font-bold'>Descriptions</h1>
-        {data.description?.features.map((items, index) => <li className='list-disc list-inside' key={index}>{items}</li>)}
-      </ul>
-    </div>
-  </div>
-</div> */}
 
 <Helmet>
   <title>{data.estate_title}</title>
