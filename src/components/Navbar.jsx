@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "./config/Config";
@@ -134,7 +134,7 @@ const Navbar = () => {
                 className="mt-3 p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <a>{profile.name}</a>
+                  <Link to={`/profile/${profile?.uid}`}>{profile.name}</Link>
                 </li>
                 <li>
                   <a
