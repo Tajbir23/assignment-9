@@ -39,7 +39,7 @@ const Profile = () => {
   return (
     <>
     <Helmet>
-        <title>Profile</title>
+        <title>{user.name}</title>
     </Helmet>
     <div className="h-screen flex items-center justify-center">
         {loading ? <h1>Loading</h1> : <>
