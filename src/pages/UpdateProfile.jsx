@@ -78,7 +78,7 @@ const UpdateProfile = () => {
   return (
     <>
     <Helmet>
-        <title>Profile</title>
+        <title>Update Profile</title>
     </Helmet>
     <ToastContainer
         position="top-right"

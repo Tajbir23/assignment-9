@@ -2,6 +2,7 @@ import { onAuthStateChanged } from "firebase/auth"
 import { useEffect, useState } from "react"
 import { Link, useNavigate, useParams } from "react-router-dom"
 import { auth } from "../components/config/Config"
+import { Helmet } from "react-helmet"
 
 
 const Profile = () => {
@@ -36,6 +37,10 @@ const Profile = () => {
 
     // extra route
   return (
+    <>
+    <Helmet>
+        <title>Profile</title>
+    </Helmet>
     <div className="h-screen flex items-center justify-center">
         {loading ? <h1>Loading</h1> : <>
         <div className="card lg:card-side bg-base-100 shadow-xl">
@@ -52,6 +57,7 @@ const Profile = () => {
 </div>
         </>}
     </div>
+    </>
   )
 }
 

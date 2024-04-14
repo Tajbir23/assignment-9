@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 
 
 const About = () => {
@@ -23,6 +24,11 @@ const About = () => {
 
     console.log(data[randomNumber]?.image)
   return (
+    <>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>About</title>
+    </Helmet>
     <section className="bg-gray-100 py-16 h-screen flex items-center justify-center">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center">
@@ -44,6 +50,7 @@ const About = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
