@@ -35,7 +35,7 @@ const Profile = () => {
         })
     },[id])
 
-    // extra route
+
   return (
     <>
     <Helmet>

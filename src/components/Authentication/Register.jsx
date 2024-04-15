@@ -20,33 +20,34 @@ const Register = () => {
     password: "",
   });
 
-  console.log(data)
+
   const validatePassword = (password) => {
     const lowerCase = /[a-z]/g;
     const upperCase = /[A-Z]/g;
     if (!lowerCase.test(password)) {
-      setLowerCase("Password must contain lowercase letters");
+      setLowerCase("Password must lowercase letters");
     } else {
       setLowerCase("");
       setData({ ...data, password });
     }
 
     if (!upperCase.test(password)) {
-      setUpperCase("Password must contain uppercase letters");
+      setUpperCase("Password must uppercase letters");
     } else {
       setUpperCase("");
       setData({ ...data, password });
     }
     if (password.length < 6) {
-      setLength("Password must be at least 6 characters long");
+      setLength("Password at least 6 characters long");
     } else {
       setLength("");
       setData({ ...data, password });
     }
   };
 
-  console.log(data.password);
   const navigate = useNavigate();
+
+
   const handleSignUp = (e) => {
     e.preventDefault();
 
@@ -57,7 +58,7 @@ const Register = () => {
             displayName: data.name,
             photoURL: data.photo,
           });
-          console.log("show toast");
+          
           toast.success("account create successful", {
             position: "top-right",
             autoClose: 100,
@@ -95,7 +96,7 @@ const Register = () => {
     <Helmet>
       <title>Register</title>
     </Helmet>
-      <div className="hero h-[calc(100vh-70px)] bg-base-200">
+      <div className="hero pt-[70px] h-screen bg-base-200">
         <ToastContainer
           position="top-right"
           autoClose={5000}
@@ -173,16 +174,16 @@ const Register = () => {
                       />
                     )}
                   </div>
-                  <div className="w-48 text-red-700">
+                  <div className=" text-red-700">
                     {lowerCase && (
                       <>
-                        {lowerCase} <br />{" "}
+                        {lowerCase},
                       </>
                     )}
 
                     {upperCase && (
                       <>
-                        {upperCase} <br />
+                        {upperCase},
                       </>
                     )}
 

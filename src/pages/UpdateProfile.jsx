@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import {useParams, useNavigate} from 'react-router-dom';
-import useAuthValidation from '../components/Customhook/useAuthValidation';
+
 import {Helmet} from "react-helmet";
 import { onAuthStateChanged, updateProfile } from 'firebase/auth';
 import { auth } from '../components/config/Config';
