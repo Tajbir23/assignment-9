@@ -88,7 +88,7 @@ const Login = () => {
     <Helmet>
       <title>Login</title>
     </Helmet>
-    <div className="hero h-[calc(100vh-70px)] bg-base-200">
+    <div className="hero h-screen pt-[70px] bg-base-200">
       <ToastContainer
         position="top-right"
         autoClose={5000}
