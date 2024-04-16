@@ -96,7 +96,7 @@ const Register = () => {
     <Helmet>
       <title>Register</title>
     </Helmet>
-      <div className="hero pt-[70px] h-screen bg-base-200">
+      <div className="hero pt-[70px] bg-base-200">
         <ToastContainer
           position="top-right"
           autoClose={5000}
@@ -191,6 +191,10 @@ const Register = () => {
                   </div>
                 </div>
               </div>
+              <div className="flex items-center gap-2 mt-4 ">
+          <input type="checkbox" required className="checkbox" />
+          <p className="font-semibold text-sm">Accept Term & Conditions</p>
+        </div>
               <div className="form-control mt-6">
                 <button
                   className="btn btn-primary"

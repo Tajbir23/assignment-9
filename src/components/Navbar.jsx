@@ -35,9 +35,8 @@ const Navbar = () => {
   return (
     <>
       <Helmet>
-        <title>Home</title>
+        <title>Luxury real estate</title>
       </Helmet>
-
       <div className="!relative z-20">
       <div className="navbar !absolute bg-base-100 animate__animated animate__bounce">
         <div className="navbar-start">
